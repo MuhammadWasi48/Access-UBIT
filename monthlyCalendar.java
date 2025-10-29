@@ -6,7 +6,6 @@ public class monthlyCalendar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Take year and month as input
         System.out.print("Enter year: ");
         int year = sc.nextInt();
         System.out.print("Enter month (1-12): ");
@@ -43,3 +42,4 @@ public class monthlyCalendar {
         sc.close();
     }
 }
+
